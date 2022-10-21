@@ -32,12 +32,6 @@ function Projects() {
       id: 2,
     },
     {
-      nameRu: 'Страница продукта "Ультразвуковой прибор для чистки лица Yamaguchi Brilliant"',
-      live: 'https://www.yamaguchi.ru/kosmetologicheskiye-apparaty/yamaguchi-brilliant',
-      photo: brilliant,
-      id: 3,
-    },
-    {
       nameRu: 'Страница продукта "Прибор для вакуумной чистки и пилинга Yamaguchi Face Remover"',
       live: 'https://www.yamaguchi.ru/kosmetologicheskiye-apparaty/face-remover',
       photo: remover,
