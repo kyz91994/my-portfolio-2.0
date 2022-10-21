@@ -144,10 +144,8 @@ h3.shadow {
     }
 
     .project-video {
-        /*width: 100vw;*/
-        /*transform: translateX(-20px);*/
-        width: 91vw;
-        /* transform: translateX(-20px); */
-        margin: 0 auto;
+        width: 100vw;
+        transform: translateX(-20px);
+
     }
 }
