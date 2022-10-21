@@ -44,6 +44,7 @@ function Projects() {
       nameRu: 'Список дел',
       live: 'https://kyz91994.github.io/todolists-app',
       photo: todolist,
+      descriptionRu: `Гостевой вход:\n login: free@samuraijs.com password: free`,
       technologies: 'HTML, CSS, React, Redux, TypeScript, Axios',
       id: 5,
     },
@@ -51,6 +52,7 @@ function Projects() {
       nameRu: 'Социальная сеть',
       live: 'https://kyz91994.github.io/social-network-2.0',
       photo: socialNet,
+      descriptionRu: `Гостевой вход: login: free@samuraijs.com password: free`,
       technologies: 'HTML, CSS, React, Redux, TypeScript, React Router',
       id: 6,
     },
@@ -104,6 +106,9 @@ function Projects() {
           </div>
           <div className="project-description-text">
             {`${translation.technologies} ${project.technologies}.`}
+          </div>
+          <div className="project-description-text">
+            {project.descriptionRu ? project.descriptionRu : ''}
           </div>
         </div>
         <div className="project-video">
